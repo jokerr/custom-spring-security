@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="io.jokerr.spring.security.providers.CustomReactiveAuthenticationManagerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-12-29T15:24:30" hostname="DELLIMUS" time="2.181">
-  <properties/>
-  <testcase name="nullArgument" classname="io.jokerr.spring.security.providers.CustomReactiveAuthenticationManagerTest" time="1.996"/>
-  <testcase name="badCreds" classname="io.jokerr.spring.security.providers.CustomReactiveAuthenticationManagerTest" time="0.181"/>
-  <system-out><![CDATA[09:24:32.995 [Test worker] DEBUG io.jokerr.spring.security.providers.CustomReactiveAuthenticationManager - Attempting Authentication org.springframework.security.authentication.TestingAuthenticationToken@eed061a3: Principal: princcipal; Credentials: [PROTECTED]; Authenticated: false; Details: null; Not granted any authorities with Delegate provider
-]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

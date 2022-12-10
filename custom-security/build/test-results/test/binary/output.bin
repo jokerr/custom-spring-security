@@ -1,1 +1,0 @@
-à09:24:32.995 [Test worker] DEBUG io.jokerr.spring.security.providers.CustomReactiveAuthenticationManager - Attempting Authentication org.springframework.security.authentication.TestingAuthenticationToken@eed061a3: Principal: princcipal; Credentials: [PROTECTED]; Authenticated: false; Details: null; Not granted any authorities with Delegate provider

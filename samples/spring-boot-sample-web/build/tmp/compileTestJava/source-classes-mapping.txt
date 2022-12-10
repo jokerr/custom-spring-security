@@ -1,2 +1,0 @@
-io/jokerr/spring/sample/HelloControllerTest.java
- io.jokerr.spring.sample.HelloControllerTest

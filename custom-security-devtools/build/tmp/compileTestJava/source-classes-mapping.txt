@@ -1,3 +1,0 @@
-io/jokerr/spring/security/WithMockExternalUserSecuritContextTest.java
- io.jokerr.spring.security.WithMockExternalUserSecuritContextTest
- io.jokerr.spring.security.WithMockExternalUserSecuritContextTest$Annotated
