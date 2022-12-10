@@ -1,0 +1,8 @@
+rootProject.name = 'custom-spring-security'
+include 'custom-security',
+        'custom-security-spring-boot-starter-autoconfigure',
+        'custom-security-spring-boot-starter',
+        'custom-security-devtools',
+        'samples:spring-boot-sample-web',
+        'samples:spring-boot-sample-webflux'
+

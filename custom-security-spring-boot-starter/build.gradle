@@ -1,0 +1,9 @@
+dependencies {
+    compile 'org.springframework.boot:spring-boot-starter-security'
+    compile 'org.springframework.boot:spring-boot-starter-validation'
+    compile project(':custom-security-spring-boot-starter-autoconfigure')
+}
+
+jar {
+    enabled = true
+}

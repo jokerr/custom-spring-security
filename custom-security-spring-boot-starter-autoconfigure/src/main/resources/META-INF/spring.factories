@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  io.jokerr.spring.security.autoconfigure.CustomServerSecurityAutoConfiguration,\
+  io.jokerr.spring.security.autoconfigure.CustomServletSecurityAutoConfiguration

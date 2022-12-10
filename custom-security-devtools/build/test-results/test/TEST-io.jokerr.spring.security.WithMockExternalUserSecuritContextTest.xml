@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="io.jokerr.spring.security.WithMockExternalUserSecuritContextTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-12-29T15:24:37" hostname="DELLIMUS" time="0.102">
+  <properties/>
+  <testcase name="defaults" classname="io.jokerr.spring.security.WithMockExternalUserSecuritContextTest" time="0.102"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

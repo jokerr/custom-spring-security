@@ -1,0 +1,12 @@
+plugins {
+    id 'org.springframework.boot' version '2.3.1.RELEASE'
+}
+
+dependencies {
+    compile 'org.springframework.boot:spring-boot-starter-web'
+    compile 'org.springframework.boot:spring-boot-starter-actuator'
+    compile project(':custom-security-spring-boot-starter')
+
+    testCompile 'org.springframework.boot:spring-boot-starter-test'
+    testCompile project(':custom-security-devtools')
+}

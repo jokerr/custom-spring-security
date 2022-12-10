@@ -1,0 +1,13 @@
+dependencies {
+    compile 'org.springframework.boot:spring-boot-autoconfigure'
+    compile 'org.springframework.boot:spring-boot-configuration-processor'
+    compile project(':custom-security')
+
+    compileOnly 'javax.servlet:javax.servlet-api'
+
+    testCompile 'org.springframework.boot:spring-boot-starter-validation'
+}
+
+jar {
+    enabled = true
+}

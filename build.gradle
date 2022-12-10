@@ -1,0 +1,53 @@
+//buildscript {
+//    repositories {
+//        mavenCentral()
+//    }
+//
+//    dependencies {
+//        classpath "io.spring.gradle:dependency-management-plugin:1.0.9.RELEASE"
+//    }
+//}
+
+plugins {
+    id 'idea'
+    id 'maven'
+    id 'com.github.ben-manes.versions' version '0.28.0'
+    id "io.spring.dependency-management" version "1.0.9.RELEASE"
+}
+
+group 'io.jokerr.spring.security'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+    jcenter()
+}
+
+dependencyUpdates {
+    revision = "release"
+    outputFormatter = "plain,json"
+}
+
+subprojects {
+    apply plugin: 'java'
+    apply plugin: 'io.spring.dependency-management'
+    apply plugin: 'maven-publish'
+
+    sourceCompatibility = 1.8
+    targetCompatibility = 1.8
+
+    ext {
+        springBootVersion = '2.3.1.RELEASE'
+    }
+
+    repositories {
+        mavenCentral()
+    }
+
+    dependencyManagement {
+        imports {
+            mavenBom("org.springframework.boot:spring-boot-dependencies:${springBootVersion}")
+//            mavenBom "io.projectreactor:reactor-bom:Bismuth-RELEASE"
+        }
+    }
+}
